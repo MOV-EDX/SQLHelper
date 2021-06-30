@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Harry Miller</Authors>
+    <Company />
+    <Product>SQLHelper</Product>
+    <Description>A small class library for building and executing SQL Server stored procedures.</Description>
   </PropertyGroup>
 
   <ItemGroup>
