@@ -6,9 +6,9 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 
-namespace SqlHelper
+namespace SqlHelper.SqlHelperService
 {
-    public class SqlHelper : ISqlHelper
+    public class SqlHelperService : ISqlHelperService
     {
         public async Task<IList<TEntity>> ExecuteQueryAsync<TEntity>(StoredProcedureProperties properties) where TEntity : class, new()
         {
