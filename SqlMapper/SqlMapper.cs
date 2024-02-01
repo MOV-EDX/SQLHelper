@@ -43,11 +43,6 @@ namespace SqlMapper
                     await reader.DisposeAsync();
                 }
 
-                await command.DisposeAsync();
-                
-                connection.Close();
-                await connection.DisposeAsync();
-
                 throw;
             }
         }
@@ -89,11 +84,6 @@ namespace SqlMapper
 
                     await reader.DisposeAsync();
                 }
-
-                await command.DisposeAsync();
-
-                connection.Close();
-                await connection.DisposeAsync();
 
                 throw;
             }
@@ -150,11 +140,6 @@ namespace SqlMapper
             }
             catch
             {
-                await command.DisposeAsync();
-
-                connection.Close();
-                await connection.DisposeAsync();
-
                 throw;
             }
         }
