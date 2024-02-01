@@ -1,7 +1,6 @@
-﻿using SqlBuilder;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace SqlHelper
+namespace SqlMapper.Common
 {
     public class StoredProcedureProperties
     {

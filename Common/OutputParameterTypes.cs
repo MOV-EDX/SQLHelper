@@ -1,4 +1,4 @@
-﻿namespace SqlBuilder
+﻿namespace SqlMapper.Common
 {
     public enum OutputParameterTypes
     {
